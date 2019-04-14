@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const employee = ['Ada', 'Brendan', 'Ali']
+// const employee = ['Ada', 'Brendan', 'Ali']
 
 function printBadges (employee) {
   for (let i = 0; i < employee.length; i++) {
@@ -10,9 +10,10 @@ function printBadges (employee) {
 
 
 function tailsNeverFails() {
-  let i = 0;
+  // Math.random()
+  let i = 0
   while (Math.random() >= 0.5) {
-    i++;
+    i++
   }
    return `You got ${i} tails in a row!`;
 }
